@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>798</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>598</ColumnWidth1>
+        <ColumnWidth2>159</ColumnWidth2>
+        <ColumnWidth3>39</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>124</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow><InstrProfShow>0</InstrProfShow></Disassembly>
+      <Watch>
+        <Format>
+          <struct_types/>
+          <watch_formats/>
+        </Format>
+        
+        
+        
+        
+      <Column0>122</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Watch>
+    </Static>
+    <Windows>
+      
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-25583-145</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-3041-158</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-3564-149</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Project</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-25061-155</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31104-247</Identity>
+            <TabName>Watch</TabName>
+            <Factory>Watch</Factory>
+            <Session>
+              <Expressions>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              <Expression><Expression>TxBuffer</Expression></Expression><Expression><Expression>RxBuffer</Expression></Expression><Expression><Expression>WriteReadStatus</Expression></Expression><Expression><Expression>j</Expression></Expression><Expression><Expression>RxBuffer[2048]</Expression></Expression><Expression><Expression>TxBuffer[2048]</Expression></Expression><Expression><Expression>pBuffer</Expression></Expression><Expression><Expression>index</Expression></Expression><Expression><Expression>size</Expression></Expression><Expression><Expression>pBuffer</Expression></Expression></Expressions>
+              
+              
+              
+              
+              
+            <TabId>0</TabId><Column0>122</Column0><Column1>100</Column1><Column2>100</Column2><Column3>100</Column3></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\&#x684C;&#x9762;\NAND &#x80FD;&#x7528;\stm32f10x_StdPeriph_lib_v3.1.2\Libraries\CMSIS\Core\CM3\system_stm32f10x.c</Filename><XPos>0</XPos><YPos>173</YPos><SelStart>8154</SelStart><SelEnd>8154</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\&#x684C;&#x9762;\NAND &#x80FD;&#x7528;\stm32f10x_StdPeriph_lib_v3.1.2\Project\Template\main.c</Filename><XPos>0</XPos><YPos>87</YPos><SelStart>3529</SelStart><SelEnd>3529</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\&#x684C;&#x9762;\NAND &#x80FD;&#x7528;\stm32f10x_StdPeriph_lib_v3.1.2\Project\Template\fsmc_largenand.h</Filename><XPos>0</XPos><YPos>78</YPos><SelStart>3543</SelStart><SelEnd>3543</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Documents and Settings\Administrator\&#x684C;&#x9762;\NAND &#x80FD;&#x7528;\stm32f10x_StdPeriph_lib_v3.1.2\Project\Template\fsmc_largenand.c</Filename><XPos>0</XPos><YPos>290</YPos><SelStart>12285</SelStart><SelEnd>12285</SelEnd></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00bf9808><key>iaridepm.enu1</key></Toolbar-00bf9808></Sizes></Row0><Row1><Sizes><Toolbar-065f28b0><key>debuggergui.enu1</key></Toolbar-065f28b0></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>617</Bottom><Right>198</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>226244</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>700226</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>617</Bottom><Right>230</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>226244</sizeHorzCY><sizeVertCX>181250</sizeVertCX><sizeVertCY>700226</sizeVertCY></Rect></Wnd2></Sizes></Row0><Row1><Sizes><Wnd3><Rect><Top>-2</Top><Left>228</Left><Bottom>617</Bottom><Right>512</Right><x>228</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>226244</sizeHorzCY><sizeVertCX>221875</sizeVertCX><sizeVertCY>700226</sizeVertCY></Rect></Wnd3></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>200</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>226244</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>226244</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
