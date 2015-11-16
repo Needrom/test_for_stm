@@ -17,3 +17,5 @@
 .\obj\main.o: ..\glcd.h
 .\obj\main.o: ..\25vf.h
 .\obj\main.o: ..\touch.h
+.\obj\main.o: ..\RVMDK\delay.h
+.\obj\main.o: ..\RVMDK\define.h

@@ -23,6 +23,7 @@
 #include "glcd.h"
 #include "25vf.h"
 #include "touch.h"
+#include "delay.h"
 /* Private function prototypes -----------------------------------------------*/
 void RCC_Configuration(void);
 void GPIO_Config(void)
@@ -66,6 +67,7 @@ int main(void)
    	GLCD_displayStringLn(Line3, "    www.keil.com    ");	
 	FY_lcd_SetCursor(0,120);
    	FY_lcd_Test();
+	delay_init();
 	delay_ms(2000);
 	DrawString(0, 184, "提供Keil C51演示程序",Yellow,Red,NORMAL);
   	while(1)

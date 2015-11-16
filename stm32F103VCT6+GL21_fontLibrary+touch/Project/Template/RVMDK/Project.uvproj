@@ -371,7 +371,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER, STM32F10X_MD, USE_STM3210B_EVAL</Define>
               <Undefine></Undefine>
-              <IncludePath>..\;..\..\..\Libraries\CMSIS\Core\CM3;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;.\delay;.\sys</IncludePath>
+              <IncludePath>..\;..\..\..\Libraries\CMSIS\Core\CM3;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\RVMDK</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -442,12 +442,7 @@
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\delay\delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>sys.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\sys\sys.c</FilePath>
+              <FilePath>.\delay.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1122,12 +1117,7 @@
             <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\delay\delay.c</FilePath>
-            </File>
-            <File>
-              <FileName>sys.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\sys\sys.c</FilePath>
+              <FilePath>.\delay.c</FilePath>
             </File>
           </Files>
         </Group>

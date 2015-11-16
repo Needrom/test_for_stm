@@ -4,6 +4,7 @@
 ".\obj\25vf.o"
 ".\obj\glcd.o"
 ".\obj\touch.o"
+".\obj\delay.o"
 ".\obj\stm32f10x_rcc.o"
 ".\obj\stm32f10x_gpio.o"
 ".\obj\misc.o"

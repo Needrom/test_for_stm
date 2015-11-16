@@ -21,82 +21,47 @@ Target DLL:      Segger\JL2CM3.dll V2.99.15.2
 Dialog DLL:      TARMSTM.DLL V1.64.0.0
  
 <h2>Project:</h2>
-E:\stm32\F103\f103\c51-FY70-8048-65KÈ«¹¦ÄÜ\stm32\65KÏµÁÐstm32F103VCT6-×Ö¿â+´¥Ãþ\stm32F103VCT6+GL21×Ö¿â+´¥Ãþ\stm32F103VCT6+GL21×Ö¿â+´¥Ãþ\Project\Template\RVMDK\Project.uvproj
+C:\Users\12645\Documents\test_for_stm\stm32F103VCT6+GL21_fontLibrary+touch\Project\Template\RVMDK\Project.uvproj
 Project File Date:  11/15/2015
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 (build 20)', folder: 'D:\keil\ARM\ARMCC\Bin'
 Build target 'STM3210B-EVAL'
+compiling stm32f10x_it.c...
+compiling main.c...
+compiling 25vf.c...
+compiling touch.c...
 compiling delay.c...
-..\..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.h(52): error:  #20: identifier "uint32_t" is undefined
-  extern const uint32_t SystemFrequency;          /*!< System Clock Frequency (Core Clock) */
-KB: Unexpected type: 0
-error type>(53): error:  #20: identifier "uint32_t" is undefined
-  extern const uint32_t SystemFrequency_SysClk;   /*!< System clock                        */
-KB: Unexpected type: 0
-error type>(54): error:  #20: identifier "uint32_t" is undefined
-  extern const uint32_t SystemFrequency_AHBClk;   /*!< AHB System bus speed                */
-KB: Unexpected type: 0
-error type>(55): error:  #20: identifier "uint32_t" is undefined
-  extern const uint32_t SystemFrequency_APB1Clk;  /*!< APB Peripheral Bus 1 (low)  speed   */
-KB: Unexpected type: 0
-error type>(56): error:  #20: identifier "uint32_t" is undefined
-  extern const uint32_t SystemFrequency_APB2Clk;  /*!< APB Peripheral Bus 2 (high) speed   */
-KB: Unexpected type: 0
-error type>(495): error:  #20: identifier "__IO" is undefined
-  typedef __IO int32_t  vs32;
-..\stm32f10x.h(495): error:  #256: invalid redeclaration of type name "int32_t" (declared at line 58 of "D:\keil\ARM\ARMCC\Bin\..\include\stdint.h")
-  typedef __IO int32_t  vs32;
-..\stm32f10x.h(495): error:  #65: expected a ";"
-  typedef __IO int32_t  vs32;
-..\stm32f10x.h(496): error:  #20: identifier "__IO" is undefined
-  typedef __IO int16_t  vs16;
-..\stm32f10x.h(496): error:  #256: invalid redeclaration of type name "int16_t" (declared at line 57 of "D:\keil\ARM\ARMCC\Bin\..\include\stdint.h")
-  typedef __IO int16_t  vs16;
-..\stm32f10x.h(496): error:  #65: expected a ";"
-  typedef __IO int16_t  vs16;
-..\stm32f10x.h(497): error:  #20: identifier "__IO" is undefined
-  typedef __IO int8_t   vs8;
-..\stm32f10x.h(497): error:  #256: invalid redeclaration of type name "int8_t" (declared at line 56 of "D:\keil\ARM\ARMCC\Bin\..\include\stdint.h")
-  typedef __IO int8_t   vs8;
-..\stm32f10x.h(497): error:  #65: expected a ";"
-  typedef __IO int8_t   vs8;
-..\stm32f10x.h(499): error:  #20: identifier "__I" is undefined
-  typedef __I int32_t vsc32;  /*!< Read Only */
-..\stm32f10x.h(499): error:  #65: expected a ";"
-  typedef __I int32_t vsc32;  /*!< Read Only */
-..\stm32f10x.h(500): error:  #20: identifier "__I" is undefined
-  typedef __I int16_t vsc16;  /*!< Read Only */
-..\stm32f10x.h(500): error:  #65: expected a ";"
-  typedef __I int16_t vsc16;  /*!< Read Only */
-..\stm32f10x.h(501): error:  #20: identifier "__I" is undefined
-  typedef __I int8_t vsc8;   /*!< Read Only */
-..\stm32f10x.h(501): error:  #65: expected a ";"
-  typedef __I int8_t vsc8;   /*!< Read Only */
-..\stm32f10x.h(511): error:  #20: identifier "__IO" is undefined
-  typedef __IO uint32_t  vu32;
-..\stm32f10x.h(511): error:  #256: invalid redeclaration of type name "uint32_t" (declared at line 64 of "D:\keil\ARM\ARMCC\Bin\..\include\stdint.h")
-  typedef __IO uint32_t  vu32;
-..\stm32f10x.h(511): error:  #65: expected a ";"
-  typedef __IO uint32_t  vu32;
-..\stm32f10x.h(512): error:  #20: identifier "__IO" is undefined
-  typedef __IO uint16_t vu16;
-..\stm32f10x.h(512): error:  #256: invalid redeclaration of type name "uint16_t" (declared at line 63 of "D:\keil\ARM\ARMCC\Bin\..\include\stdint.h")
-  typedef __IO uint16_t vu16;
-..\stm32f10x.h(512): error:  #65: expected a ";"
-  typedef __IO uint16_t vu16;
-..\stm32f10x.h(513): error:  #20: identifier "__IO" is undefined
-  typedef __IO uint8_t  vu8;
-..\stm32f10x.h(513): error:  #256: invalid redeclaration of type name "uint8_t" (declared at line 62 of "D:\keil\ARM\ARMCC\Bin\..\include\stdint.h")
-  typedef __IO uint8_t  vu8;
-..\stm32f10x.h(513): error:  #65: expected a ";"
-  typedef __IO uint8_t  vu8;
-..\stm32f10x.h(515): error:  #20: identifier "__I" is undefined
-  typedef __I uint32_t vuc32;  /*!< Read Only */
-delay\delay.c: 0 warnings, 30 errors
-".\Obj\STM3210B-EVAL.axf" - 30 Error(s), 0 Warning(s).
-Target not created.
-Build Time Elapsed:  00:00:00
+compiling GLCD.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling misc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_wwdg.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=3296 RO-data=272 RW-data=6912 ZI-data=1024  
+FromELF: creating hex file...
+".\Obj\STM3210B-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:13
 </pre>
 </body>
 </html>
